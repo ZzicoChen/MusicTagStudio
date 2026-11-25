@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "notes": "Music Tag Studio v1.0 正式版：批量标签编辑、封面搜索与替换、歌词搜索 / 编码修正、跨源匹配、撤销备份；本次新增「检测更新」，三路镜像兜底读取本文件。",
+  "page": "https://github.com/ZzicoChen/Music-Tag-Studio/releases/latest",
+  "assets": {
+    "installer": "Music Tag Studio v1.0 Windows 安装版.exe",
+    "portable": "Music Tag Studio v1.0 Windows 便携版.zip"
+  }
+}
