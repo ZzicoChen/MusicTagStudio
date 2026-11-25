@@ -4,18 +4,18 @@ Windows 音乐标签批量编辑器（PySide6 自研版，仿原版 MusicTag 重
 
 ## 下载
 
-到 **[Releases](https://github.com/ZzicoChen/Music-Tag-Studio/releases/latest)** 里挑一个：
+到 **[Releases](https://github.com/ZzicoChen/Music-Tag-Studio/releases/latest)** 里挑一个（GitHub 会把上传文件名里的空格转成 `-`，所以资产名用连字符，解压/安装后程序名仍是 `Music Tag Studio`）：
 
-| 版本 | 文件名 | 怎么用 |
+| 版本 | 文件 | 怎么用 |
 |---|---|---|
-| **Windows 安装版** | `Music Tag Studio v1.0 Windows 安装版.exe` | 双击 → 选安装目录 → 开始安装。会自动创建桌面 / 开始菜单快捷方式，并注册到「应用和功能」里可卸载 |
-| **Windows 便携版** | `Music Tag Studio v1.0 Windows 便携版.zip` | 解压到任意目录，双击里面的 `Music Tag Studio.exe` 即用；整个文件夹要保留（`_internal` 不能删） |
+| **Windows 安装版** | `Music-Tag-Studio-v1.0-Windows-Setup.exe` | 双击 → 选安装目录 → 开始安装。自动创建桌面 / 开始菜单快捷方式，并注册到「应用和功能」里可卸载 |
+| **Windows 便携版** | `Music-Tag-Studio-v1.0-Windows-Portable.zip` | 解压到任意目录，双击里面的 `Music Tag Studio.exe` 即用；整个文件夹要保留（`_internal` 不能删） |
 
 两个版本内容完全一样，只是分发形式不同。数据目录（`settings.json` / `defaults.json` / 撤销备份）在软件文件夹上一级 `MusicTagStudio_Data`，便携版换机器直接搬文件夹即可。
 
 ## 检测更新
 
-软件里 **帮助 → 关于 → 检测更新**（设置页里也有入口），会依次尝试三路镜像读取本仓库的 `version.json`，任意一路通就能比对版本：
+软件里「关于 → 检测更新」（设置页里也有入口），会依次尝试三路镜像读取本仓库的 `version.json`，任意一路通就能比对版本：
 
 1. `raw.githubusercontent.com` —— 主地址
 2. `gh-proxy.com` —— 国内直连不畅时的代理镜像
