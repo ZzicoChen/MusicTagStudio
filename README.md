@@ -15,7 +15,7 @@
 ![Engine](https://img.shields.io/badge/PySide6-6.12-8957e5?style=flat-square&labelColor=1f2328)
 ![License](https://img.shields.io/badge/license-personal%20use-d29922?style=flat-square&labelColor=1f2328)
 
-[下载安装](#下载安装) · [功能特性](#功能特性) · [界面预览](#界面预览) · [检测更新](#检测更新) · [更新日志](#更新日志)
+[下载安装](#下载安装) · [功能特性](#功能特性) · [界面预览](#界面预览) · [检测更新](#检测更新) · [更新日志](#更新日志) · [关于](#关于)
 
 </div>
 
