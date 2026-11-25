@@ -25,7 +25,7 @@
 
 MusicTagStudio 是一个**给自己用**的 Windows 桌面音乐标签工具：把一堆本地音频拖进来，批量改标题 / 艺术家 / 专辑 / 年份 / 流派 / 音轨，配封面、搜歌词、修编码，改完一次性写回文件。
 
-原版 MusicTag 好用但用不上全部功能，于是用 PySide6 从头重做：界面深色、操作直给、所有请求都走公开接口，**音乐文件只在你自己的硬盘上读写**，不上传任何内容。
+全部用 PySide6 从零写出来：界面深色、操作直给、所有网络请求只走公开接口，**音乐文件只在你自己的硬盘上读写**，不上传任何内容。
 
 <img src="readme_assets/screenshot-main.png" alt="主界面" width="100%">
 
@@ -62,7 +62,7 @@ MusicTagStudio 是一个**给自己用**的 Windows 桌面音乐标签工具：�
 
 ## 下载安装
 
-到 **[Releases · v1.0](https://github.com/ZzicoChen/Music-Tag-Studio/releases/latest)** 下载，两种形式任选：
+到 **[Releases · v1.0](https://github.com/ZzicoChen/MusicTagStudio/releases/latest)** 下载，两种形式任选：
 
 | 版本 | 文件 | 安装 / 使用 |
 |---|---|---|
@@ -96,7 +96,7 @@ MusicTagStudio\                 ← 程序目录（安装版为安装时选的�
 |---|---|---|
 | 1 | `raw.githubusercontent.com/…/main/version.json` | 主地址 |
 | 2 | `gh-proxy.com/https://raw.githubusercontent.com/…` | 国内直连不畅时的代理镜像 |
-| 3 | `cdn.jsdelivr.net/gh/ZzicoChen/Music-Tag-Studio@main/version.json` | jsDelivr CDN 缓存 |
+| 3 | `cdn.jsdelivr.net/gh/ZzicoChen/MusicTagStudio@main/version.json` | jsDelivr CDN 缓存 |
 
 结果**直接显示在帮助页里**：已是最新 → 显示当前与远端版本、命中哪一路；有新版本 → 显示版本号、更新说明，并给「打开发布页下载」按钮；三路都失败 → 列出各路错误原因。也可以在设置里填自定义 `update_url` 顶掉默认地址。
 
@@ -155,3 +155,4 @@ MusicTagStudio\                 ← 程序目录（安装版为安装时选的�
 <sub>个人自用工具，按需取用；遇到 Bug 直接开 Issue。</sub>
 
 </div>
+，
