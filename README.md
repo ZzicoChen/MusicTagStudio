@@ -27,8 +27,6 @@ MusicTagStudio 是一个**给自己用**的 Windows 桌面音乐标签工具：�
 
 全部用 PySide6 从零写出来：界面深色、操作直给、所有网络请求只走公开接口，**音乐文件只在你自己的硬盘上读写**，不上传任何内容。
 
-<img src="readme_assets/screenshot-main.png" alt="主界面" width="100%">
-
 ---
 
 ## 功能特性
@@ -52,9 +50,9 @@ MusicTagStudio 是一个**给自己用**的 Windows 桌面音乐标签工具：�
 
 <div align="center">
 
-<img src="readme_assets/screenshot-help.png" alt="帮助页：关于 + 检测更新" width="88%">
+<img src="readme_assets/screenshot-main.png" alt="MusicTagStudio 主界面全貌" width="100%">
 
-<sub>帮助页：关于信息、作者二维码、检测更新全在一页，结果原地显示，不另弹窗</sub>
+<sub>整窗全貌：左侧文件列表（文件名 / 标题 / 艺术家 / 专辑 / 封面 / 时长 / 目录），右侧标签编辑 → 歌词 → 封面预览三块可上下拖动分区</sub>
 
 </div>
 
@@ -148,11 +146,50 @@ MusicTagStudio\                 ← 程序目录（安装版为安装时选的�
 
 ---
 
+## 关于
+
+以下内容与软件内「帮助」弹窗一致（关于信息 + 检测更新合一，结果就地显示）。
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**MusicTagStudio** `v1.0 正式版`
+
+- 运行环境：Windows x64 · Python 3.13 + PySide6 · mutagen · 目录版
+- 作者：**Zzico** · [GitHub](https://github.com/ZzicoChen)
+- 数据目录：`MusicTagStudio_Data`（`settings.json` / `defaults.json` / 撤销备份）
+- 缓存目录：`MusicTagStudio_Data\cache`（封面缩略图等）
+- 全部保存在程序文件夹内，整个目录可搬移
+
+</td>
+<td width="50%" valign="top">
+
+**检查更新**
+
+点「检测更新」依次尝试三路镜像，结果直接显示在帮助页，不再另弹窗：
+
+1. GitHub 直连 `raw.githubusercontent.com`
+2. gh-proxy 镜像（国内连不上时的兜底）
+3. jsDelivr CDN（缓存加速）
+
+版本号来自本仓库 `version.json`，详情页指向 [Releases](https://github.com/ZzicoChen/MusicTagStudio/releases/latest)。
+
+</td>
+</tr>
+</table>
+
 <div align="center">
+
+<table>
+<tr>
+<td align="center" width="50%"><img src="readme_assets/qr-github.png" alt="GitHub首页" width="150"><br><sub>GitHub 首页</sub></td>
+<td align="center" width="50%"><img src="readme_assets/qr-support.png" alt="支持作者" width="150"><br><sub>支持作者</sub></td>
+</tr>
+</table>
 
 **作者**：Zzico · [GitHub](https://github.com/ZzicoChen)
 
 <sub>个人自用工具，按需取用；遇到 Bug 直接开 Issue。</sub>
 
 </div>
-，
